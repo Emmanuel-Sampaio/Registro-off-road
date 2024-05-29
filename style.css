@@ -2,14 +2,11 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
 }
   
 
 #principal{
-    background-image: url("imagens/WhatsApp\ Image\ 2024-05-24\ at\ 15.50.02.jpeg");
+    background-image: url("imagens/Image\ 2024-05-24\ at\ 15.50.02.jpeg");
     width: 100%;
     height: 100vh; 
     background-size: cover; 
@@ -33,4 +30,278 @@ body{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;
+    border-radius: 10px;
+}
+.hover-grow p {
+    transition: transform 0.5s ease;
+}
+
+.hover-grow:hover p{
+    transform: scale(1.05);
+}
+#Segundo {
+    background-image: url("imagens/Image\ 2024-05-24\ at\ 16.21.25.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+
+#Segundo h2 {
+    color: rgb(215, 215, 0);
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    margin: 0; /* Remova todas as margens */
+    margin-top: 200px;
+    margin-left: 280px;
+  
+
+}
+
+#bolder{
+    width: 550px;
+    height: 200px;
+    color: white;
+    font-family: 'HK Grotesk', Arial, sans-serif;
+    font-size: 19px;
+    display: flex;
+    align-items: flex-start; /* Alinha o conteúdo no topo */
+    margin-top: 20px;
+    margin-left: 280px;
+}
+#Segundo a{
+    color: Orange;
+    font-size: 18px;
+    margin-left: 280px;
+}
+
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('hk-grotesk.zip') format('woff2'),
+         url('hk-grotesk.zip') format('woff');
+    font-family: 'Anton';
+    src: url('Anton.zip') format('woff2'),
+         url('Anton.zip') format('woff');
+    /* Adicione outros formatos de fonte, se necessário */
+}
+#Terceiro {
+    background-image: url('imagens/parte_3.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#Terceiro h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: rgb(215, 215, 0);
+    margin-top: 150px;
+    text-align: center;
+}
+
+#Serviços {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+    width: 60%;
+}
+
+.servico {
+    position: relative;
+    text-align: center;
+}
+
+.servico img {
+    width: 250px;
+    height: 170px;
+    display: block;
+    
+}
+
+.servico b {
+    color: orange;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 0;
+    position: absolute;
+    margin-top: -30px;
+    left: 0;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.yellow-block {
+    width: 250px;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    background-color: yellow;
+    position: absolute;
+    top: 100%; /* Posição abaixo da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+.yellow-block p {
+    margin: 0;
+    font-size: 12px;
+    font-family: 'HK Grotesk', sans-serif; /* Adiciona a fonte 'HK Grotesk' */
+    font-weight: bold; /* Aplica o estilo 'bold' */
+    color: black; /* ou qualquer outra cor desejada */
+    margin-top: 10px;
+}
+#quarto{
+    background-image: url('imagens/fundo.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+#quarto h2{
+    font-family: 'Anton', sans-serif;
+    color: rgb(215, 215, 0);
+    display: flex;
+    justify-content: center;
+    font-size:50px ;
+    
+    
+}
+#quarto p{
+    font-family: 'HK Grotesk', sans-serif;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    font-weight: bold;
+}
+.escrita img{
+    width: 350px;
+    height: 400px;
+    filter: brightness(50%);
+}
+#imagens-4{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.escrita {
+    position: relative;
+    width: 350px;
+    height: 450px;
+}
+.escrita p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white; /* Cor do texto */
+    font-family: 'Anton', sans-serif;
+    font-size: 20px; /* Tamanho do texto */
+    text-align: center;
+    z-index: 1; 
+}
+#logo{
+    width: 400px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: 750px;
+    z-index: 2; 
+}
+#quinta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#quinta {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: url('imagens/fundo_quinto.jpeg') no-repeat;
+    background-size: 100% 80%; /* A imagem ocupa 80% da altura */
+    overflow: hidden; /* Para garantir que nenhum conteúdo extra apareça */
+}
+
+#quinta::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%; /* O bloco amarelo ocupa 20% da altura */
+    background-color: #f9ef23;
+}
+
+#quinta h2 {
+    font-size: 51px;
+    font-family: 'Anton', sans-serif;
+    width: 366px;
+    height: 225;
+    color: #f9ef23;
+    margin-left: 180px;
+    margin-top: 240px;
+    z-index: 1; /* Para garantir que o texto esteja na frente */
+    position: relative;
+}
+
+#quinta img {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 1; /* Para garantir que a imagem esteja na frente */
+    margin-left: 1100px;
+    top: 48%;
+}
+#rodapé{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    justify-content: center;
+    margin-top: 150px;
+    z-index: 1; 
+
+}
+#rodapé b{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+
+
+}
+#rodapé a{
+    text-decoration: none;
+    color: black;
+}
+#rodapé2{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 310px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+#rodapé2 a{
+    text-decoration: none;
+    color: black;
+
 }
