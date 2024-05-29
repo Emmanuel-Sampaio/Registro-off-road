@@ -83,11 +83,11 @@ body{
 
 @font-face {
     font-family: 'HK Grotesk';
-    src: url('hk-grotesk.zip') format('woff2'),
-         url('hk-grotesk.zip') format('woff');
+    src: url('fontes/hk-grotesk.zip') format('woff2'),
+         url('fontes/hk-grotesk.zip') format('woff');
     font-family: 'Anton';
-    src: url('Anton.zip') format('woff2'),
-         url('Anton.zip') format('woff');
+    src: url('fontes/Anton.zip') format('woff2'),
+         url('fontes/Anton.zip') format('woff');
     /* Adicione outros formatos de fonte, se necessário */
 }
 #Terceiro {
