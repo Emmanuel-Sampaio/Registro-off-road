@@ -340,7 +340,7 @@ body{
     
     #Segundo h2 {
         font-size: 40px;
-        margin-top:220px;
+        margin-top:150px;
         margin-left: 20px;
     }
     #Segundo b{
@@ -383,7 +383,7 @@ body{
     #logo2{
         width: 90%;
         margin-left: 40px;
-        margin-top: -20px;
+        
     }
     #Terceiro .servico img {
         width: 100%; /* Ajusta a largura para 100% do contêiner */
