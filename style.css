@@ -327,7 +327,7 @@ body{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        overflow-x: hidden; /* Oculta o transbordamento horizontal */
+        overflow-x: hidden; 
     }
 
     #principal {
@@ -413,7 +413,7 @@ body{
     }
 
     .escrita {
-        width: 300px; /* Reduz a largura da div .escrita */
+        max-width: 300px; /* Reduz a largura da div .escrita */
         height: auto; /* Ajusta a altura automaticamente */
     }
 
@@ -429,7 +429,7 @@ body{
     }
 
     #quinta {
-        height: 700px;
+        height: 60%;
         display: flex;
     }
 
@@ -440,14 +440,19 @@ body{
     }
 
     #quinta::after {
-        height: 230px;
-        display: flex;
+        height: 190px;
+       
+
     }
 
     #rodapé {
         flex-direction: column;
         align-items: center; 
         gap: 30px;
+        
+        
+        
+        
     }
 
     #rodapé2 {
@@ -459,9 +464,10 @@ body{
 
     #quinta img {
         width: 100%;
-        text-align: center;
+        display: flex;
+        align-items: center;
         margin-left: 225px;
-        margin-top: -40px;
+        margin-top: -20px;
     }
 }
 
