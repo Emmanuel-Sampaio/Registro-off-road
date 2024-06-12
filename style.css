@@ -278,13 +278,13 @@ body{
 }
 
 #quinta img {
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: auto;
     position: absolute;
     transform: translateX(-50%);
     z-index: 1; /* Para garantir que a imagem esteja na frente */
-    margin-left: 1100px;
-    top: 48%;
+    margin-left: 1250px;
+    top: 52%;
 }
 
 #rodapé{
@@ -364,7 +364,7 @@ body{
         margin-top: 10px;
     }
     #Terceiro{
-        height: 1400px;
+        height: 1300px;
         
 
     }
@@ -397,7 +397,7 @@ body{
     
     #quarto{
 
-        height: 1500px;
+        height:100%;
     
     }
     #quarto h2{
@@ -427,32 +427,41 @@ body{
         margin-top: 1px; /* Remove a margem direita */
     }
     #quinta{
-        
-        height: 1100px;
+
+        height:700px;
         display: flex;
     }
     #quinta h2{
         display: flex;
         margin-left: 10px;
-        margin-top: 300px;
+        margin-top: 150px;
         
     }
     
     #quinta::after{
-        height: 250px;
+        height: 230px;
+        display: flex;
     }
     #rodapé {
         flex-direction: column;
-        align-items: center; /* Alinha os itens verticalmente */
-        margin-top: 350px; /* Ajuste conforme necessário */
-        gap: 30px; /* Ajuste conforme necessário */
+        align-items: center; 
+        gap: 30px;
+         
     }
 
     #rodapé2 {
         flex-direction: column;
-        align-items: center; /* Alinha os itens verticalmente */
-        margin-top: -105px; /* Ajuste conforme necessário */
-        gap: 40px; /* Ajuste conforme necessário */
+        align-items: center; 
+        gap: 30px;
+        margin-top: -100px;
+ 
+    }
+    #quinta img{
+        width: 100%;
+        text-align: center;
+        margin-left: 225px;
+        margin-top: -40px;
+
     }
    
     
