@@ -283,7 +283,7 @@ body{
     position: absolute;
     transform: translateX(-50%);
     z-index: 1; /* Para garantir que a imagem esteja na frente */
-    margin-left: 1250px;
+    left: 50%;
     top: 52%;
 }
 
@@ -328,6 +328,7 @@ body{
         padding: 0;
         box-sizing: border-box;
         overflow-x: hidden; 
+        width: 100%;
     }
 
     #principal {
@@ -466,8 +467,6 @@ body{
         width: 100%;
         display: flex;
         align-items: center;
-        
-        margin-top: -20px;
     }
 }
 
