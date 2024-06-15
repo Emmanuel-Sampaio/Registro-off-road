@@ -325,7 +325,7 @@ body{
 /* Media Queries para responsividade */
 @media (max-width: 768px) {
     body,html{
-        margin: -0.1px;
+        margin: -0.000000001px;
         padding: 0;
         box-sizing: border-box;
         overflow-x: hidden!important;
